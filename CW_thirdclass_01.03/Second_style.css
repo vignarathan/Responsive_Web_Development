@@ -8,16 +8,16 @@
 	WIDTH:100%;
 	border-radius:5px;
 }
-@media(max-width:375px;){
+@media(max-width: 768px){
 	.header{
 	display:flex;
-	justify-content:space-between;
 	background-color:#aaaaaa;
 	padding:20px;
 	height:25%;
 	WIDTH:100%;
 	border-radius:5px;
 	flex-direction:column;
+	align-items:center;
 	}
 }
 /* style for footer */
@@ -26,6 +26,7 @@
 	padding:10px;
 	color:white;
 	WIDTH:100%;
+	text-align:center;
 }
 /* style for profile picture */
 .propic{
@@ -39,18 +40,26 @@
 	justify-content:space-evenly;
 	gap:20px;
 }
-@media(max-width:375px;){
+@media(max-width: 768px){
 	.maindiv{
-	display:flex;
-	align-items:center;
-	justify-content:space-evenly;
-	flex-direction:column;
+		flex-direction:column;
+		margin:55px;
+	}
+}
+@media(max-width: 414px){
+	.subdiv{
+		height:150px;
+		width:150px
 	}
 }
 .subdiv{
-	background-color:lightblue;
-	height:25%s
-	border:3px;
-	padding:20px;
-	align-items:center;
+	height:150px;
+	width:400px;
+	background-color:#faf0e6;
+	border:5px solid black;
+	border-color:#bc8f8f ;
+	border-radius:10px;
+	padding:25px;
+	margin:10px;
+	
 }
