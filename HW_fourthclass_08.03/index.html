@@ -1,0 +1,202 @@
+<!-- free html css template downloaded from creative studio -->
+<!--It is a one page website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignarathan</title>
+    <link rel="stylesheet" href="tooplate-graphite-creative.css">
+	
+	<!--favicon-->
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	
+	
+	<!--tamil font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Coiny&family=Hind+Madurai:wght@300;400;500;600;700&family=Kavivanar&family=Noto+Sans+Tamil:wdth@73.4&display=swap" rel="stylesheet">
+		
+    <!-- Tooplate 2156 Graphite Creative  https://www.tooplate.com/view/2156-graphite-creative Free HTML CSS Template-->
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo-area" onclick="scrollToTop(); return false;">
+                <div class="logo-vector">V</div>
+                <div class="logo-text">
+                    <h1>S.Vignarathan's Portfolio</h1>
+                    <p>Computer Science Student</p>
+                </div>
+            </a>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <!-- <a href="#services">Services</a> -->
+                <!-- <a href="#portfolio">Portfolio</a> -->
+                <a href="#about">About Me</a>
+                <a href="#contact">For Contact</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="section-hero">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-line"></div>
+                    <h2>Welcome To My Website!</h2>
+                    <p>You can learn more about me here...........</p>
+                    <!-- <a href="#contact" class="cta-button">Start a Project</a -->
+					<h2 class="kavivanar-regular">வணக்கம்!</h2>
+                    <p  class="kavivanar-regular">என்னுடைய இணையத்தளத்திற்கு உங்களை வரவேற்கிறேன்.</p>
+                </div>
+                <div class="slider-container">
+                    <div class="slide active" data-fallback="Design Workspace">
+                        <img src="images/welcome.webp" ALT="welcome image">
+                    </div>
+                    <div class="slide" data-fallback="Creative Work">
+                        <img src="images/tooplate-creative-21.jpg" alt="Creative work">
+                    </div>
+                    <div class="slide" data-fallback="Web Design">
+                        <img src="images/tooplate-creative-23.jpg" alt="Web design">
+                    </div>
+                    <div class="slider-dots">
+                        <div class="dot active" onclick="currentSlide(0)"></div>
+                        <div class="dot" onclick="currentSlide(1)"></div>
+                        <div class="dot" onclick="currentSlide(2)"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section-about">
+			<div class="section-title" >
+				<img src="images/profilepicture.jpg" style="height:250px; width:250px;">
+				<h2 class="section-title" >S.Vignarathan</h2>
+			</div>
+			
+			<div class="about-container">
+                <div class="about-content">
+                    <h3>About me</h3>
+                   <UL>
+					<LI>I'm <STRONG>Sivalingam Vignarathan.</STRONG></LI>
+					<LI>I'm studied at Jaffna Hindu College.</LI>
+					<LI>I just finished my ALs in 2024.</LI>
+					<LI>Now,I'm selected for <EM>Computer Science,University Of Jaffna </EM>by UGC.</LI>
+				</UL>
+					<iframe width="560" height="315" style="margin:30px;" src="https://www.youtube.com/embed/1wtkCKmTjdg?si=sy6kIUGBHTLSfwDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="about-blocks">
+                    <div class="about-block">
+                        <h4>Ordinary Levels</h4>
+						<UL>
+							<LI>Tamil&nbsp; &nbsp; :&nbsp; A</LI>
+							<LI>English :&nbsp; A</LI>
+							<LI>Maths&nbsp; :&nbsp; A</LI>
+							<LI>Science :&nbsp; A</LI>
+						</UL>
+                    </div>
+                    <div class="about-block">
+                        <h4>Advanced Levels</h4>
+						<UL>
+							<LI>Combined Maths&nbsp; :&nbsp; A</LI>
+							<LI>Physics&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :&nbsp; B</LI>
+							<LI>Chemistry&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :&nbsp; B</LI>
+							<LI>General English&nbsp; &nbsp; :&nbsp; C</LI>
+						</UL>
+                    </div>
+                    <div class="about-block">
+                        <h4>Higher Studies</h4>
+						<ul>
+							<li>I'm selected for Computer Science,University Of Jaffna by UGC (acadamic year 2024)</li>
+						</ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section-contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Ready to bring your vision to life? Reach out to us and let's discuss how we can help elevate your brand and create something extraordinary together.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <label>Email</label>
+                            <a href="https://x.com/minthu"><span class="__cf_email__" data-cfemail="ff979a939390bf9c8d9a9e8b96899a8c8b8a9b9690d19c9092">vikkiuoj2026@gmail.com</span></a>
+                        </div>
+                        <div class="contact-item">
+                            <label>Phone</label>
+                            <a href="tel:+1234567890">070 XXX XXXX </a>
+                        </div>
+						 <div class="contact-item">
+                            <label>University</label>
+                            <a href="tel:+1234567890">University of Jaffna</a>
+                        </div>
+                        <div class="contact-item">
+                            <label>Address</label>
+                            <p>Bucket Facory Road,Maviddapuram.<br>Jaffna.40000.</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7863.183902906478!2d80.03108739118389!3d9.800551333477728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3affaba0b6e79a7d%3A0x3f964c27f5abc749!2sMaviddapuram!5e0!3m2!1sen!2slk!4v1771131301803!5m2!1sen!2slk" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							
+                        </div>
+					 </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO MODAL -->
+        <div id="portfolioModal" class="portfolio-modal">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closePortfolioModal()">&times;</button>
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <div class="modal-details">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalCategory"></p>
+                    <p id="modalDescription"></p>
+                    <ul id="modalFeatures"></ul>
+                    <a href="#" id="modalVisitBtn" class="modal-visit-btn" target="_blank">Visit the Site</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy;2026 S.Vignarathan,All Rights are Reserved.</p>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="tooplate-graphite-script.js"></script>
+</body>
+</html>
