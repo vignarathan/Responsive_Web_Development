@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Staff Page</title>
+<style>
+Background
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #fff;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section Cards */
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: rgba(255,255,255,0.12);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.2);
+}
+
+.role {
+    font-size: 12px;
+    color: #cbd5e1;
+    margin-top: 5px;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <img src="images/logo.png" class="logo">
+        <h1>Jaffna Royal College</h1>
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="history.html">History</a>
+    <a href="staff.html">Staff</a>
+    <a href="students.html">Students</a>
+    <a href="funds.html">Funds</a>
+    <a href="events.html">Events</a>
+    <a href="announcements.html">Announcements</a>
+</nav>
+<header>
+Jaffna Royal College - Staff Directory
+</header>
+
+<div class="container">
+
+<!-- Principal -->
+<div class="section">
+    <h2>Principal</h2>
+    <div class="grid">
+        <div class="card">
+            திரு. அருள்நாதன் சிவகுமார்
+            <div class="role">Principal</div>
+        </div>
+    </div>
+</div>
+
+<!-- Deputy Principal -->
+<div class="section">
+    <h2>Deputy Principal</h2>
+    <div class="grid">
+        <div class="card">
+            திருமதி. கயல்விழி ராமநாதன்
+            <div class="role">Deputy Principal</div>
+        </div>
+    </div>
+</div>
+
+<!-- Teachers -->
+<div class="section">
+    <h2>Teachers</h2>
+    <div class="grid">
+       
+		 <div class="card">திரு. மணிவண்ணன் குமார்<div class="role">Mathematics</div></div>
+        <div class="card">திருமதி. இசைவாணி செல்வம்<div class="role">Science</div></div>
+        <div class="card">திரு. பாலசுப்ரமணியம் ரவி<div class="role">English</div></div>
+        <div class="card">திருமதி. நந்தினி குமார்<div class="role">ICT</div></div>
+        <div class="card">திரு. கதிரவன் முரளி<div class="role">Tamil</div></div>
+        <div class="card">திருமதி. வினோதினி சுரேஷ்<div class="role">History</div></div>
+        <div class="card">திரு. அரவிந்த் செல்வராஜ்<div class="role">Physics</div></div>
+        <div class="card">திருமதி. லதா மகேந்திரன்<div class="role">Chemistry</div></div>
+        <div class="card">திரு. சுரேஷ் கண்ணன்<div class="role">Biology</div></div>
+        <div class="card">திருமதி. பிரியங்கா தேவி<div class="role">Commerce</div></div>
+        <div class="card">திரு. ஜெயக்குமார் சிவா<div class="role">Geography</div></div>
+        <div class="card">திருமதி. கலைவாணி ரவி<div class="role">Art</div></div>
+    </div>
+</div>
+
+<!-- Prefect of Sports -->
+<div class="section">
+    <h2>Prefect of Sports</h2>
+    <div class="grid">
+        <div class="card">
+            செல்வன். ஹரிஷ் குமார்
+            <div class="role">Head Prefect of Sports</div>
+        </div>
+        <div class="card">
+            செல்வி. தர்ஷினி பிரியா
+            <div class="role">Assistant Sports Prefect</div>
+        </div>
+    </div>
+</div>
+
+</div>
+<footer>
+    <p>© 2026 Jaffna Royal College</p>
+</footer>
+
+</body>
+</html>
